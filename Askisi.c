@@ -37,10 +37,3 @@ int main()
     system("pause");
     return 0;
 }
-
-//'for' to fill array
-//'for' to print array
-//input number to find
-//serial search for number with 'for'
-
-//print found or not found
