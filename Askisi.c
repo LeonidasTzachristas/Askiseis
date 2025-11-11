@@ -5,16 +5,19 @@ int main()
 {
     int A[10], i, search, found=0;
 
+    /* Fill array */
     for (i=0; i<10; i++) {                              //Fill array
         printf("Enter the %d number: ", i+1);
         scanf("%d", &A[i]);
     }
 
+    /* Print array */
     for (i=0; i<10; i++) {                              //Print array
         printf("%d ", A[i]);
     }
     printf("\n");
 
+    /* Serial search */
     printf("Enter number to search: ");                 //Enter search number
     scanf("%d", &search);
 
@@ -39,4 +42,5 @@ int main()
 //'for' to print array
 //input number to find
 //serial search for number with 'for'
+
 //print found or not found
