@@ -34,7 +34,7 @@ int main()
 }
 
 /* a) Find length of string */
-int StrLen(char *str)
+int StrLen(char str[])
 {
     int i=0;
     while (str[i]!='\0')
@@ -43,7 +43,7 @@ int StrLen(char *str)
 }
 
 /* Count Capitals in string */
-int CountCaps(char *str)
+int CountCaps(char str[])
 {
     int count=0;
     while (*str!='\0') {
@@ -56,7 +56,7 @@ int CountCaps(char *str)
 }
 
 /* Count Lowercase in string */
-int CountLower(char *str)
+int CountLower(char str[])
 {
     int count=0;
     while (*str!='\0') {
@@ -69,7 +69,7 @@ int CountLower(char *str)
 }
 
 /* Count character in string */
-int CountChar(char *str, char c)
+int CountChar(char str[], char c)
 {
     int count=0;
     while (*str!='\0') {
@@ -82,7 +82,7 @@ int CountChar(char *str, char c)
 }
 
 /* Capitalize string */
-void Capitalize(char *str)
+void Capitalize(char str[])
 {
     while (*str!='\0') {
         if (*str>=97 && *str<=122) {
@@ -90,4 +90,5 @@ void Capitalize(char *str)
         }
         str++;
     }
+
 }
